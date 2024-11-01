@@ -30,9 +30,9 @@ print(f'System: {sys.executable}')
 print(f'TensorFlow: {tf.__version__}')
 print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 ```
-> System: /Users/juanpablo/miniconda3/envs/work3.10/bin/python
-> TensorFlow: 2.16.2
-> Num GPUs Available:  1
+> System: /Users/juanpablo/miniconda3/envs/work3.10/bin/python<br/>
+> TensorFlow: 2.16.2<br/>
+> Num GPUs Available:  1<br/>
 
 ### 3.1 GPU Test
 ```
