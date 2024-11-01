@@ -59,11 +59,11 @@ loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False)
 model.compile(optimizer="adam", loss=loss_fn, metrics=["accuracy"])
 model.fit(x_train, y_train, epochs=1, batch_size=128)
 ```
-> Visible Devices:  [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
-> 391/391 ━━━━━━━━━━━━━━━━━━━━ 118s 243ms/step - accuracy: 0.0600 - loss: 4.8250
-> CPU times: user 1min 56s, sys: 45.5 s, total: 2min 41s
-> Wall time: 2min
-> <keras.src.callbacks.history.History at 0x320623970>
+> Visible Devices:  [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]<br/>
+> 391/391 ━━━━━━━━━━━━━━━━━━━━ 118s 243ms/step - accuracy: 0.0600 - loss: 4.8250<br/>
+> CPU times: user 1min 56s, sys: 45.5 s, total: 2min 41s<br/>
+> Wall time: 2min<br/>
+> <keras.src.callbacks.history.History at 0x320623970><br/>
 
 ### 3.2 CPU Testing
 ```
@@ -86,11 +86,8 @@ loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False)
 model.compile(optimizer="adam", loss=loss_fn, metrics=["accuracy"])
 model.fit(x_train, y_train, epochs=1, batch_size=128)
 ```
-> Visible Devices:  [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
-> 391/391 ━━━━━━━━━━━━━━━━━━━━ 493s 1s/step - accuracy: 0.0528 - loss: 4.9807
-> CPU times: user 20min 53s, sys: 3min 23s, total: 24min 16s
-> Wall time: 8min 14s
-> <keras.src.callbacks.history.History at 0x17f61fac0>
-
-
-
+> Visible Devices:  [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]<br/>
+> 391/391 ━━━━━━━━━━━━━━━━━━━━ 493s 1s/step - accuracy: 0.0528 - loss: 4.9807<br/>
+> CPU times: user 20min 53s, sys: 3min 23s, total: 24min 16s<br/>
+> Wall time: 8min 14s<br/>
+> <keras.src.callbacks.history.History at 0x17f61fac0><br/>
