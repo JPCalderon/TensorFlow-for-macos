@@ -35,3 +35,29 @@ TensorFlow: 2.16.2
 Num GPUs Available:  1
 
 
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "source": [
+    "Here is some Python code:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello world!\")"
+   ]
+  }
+  ...
+  ]
+}
