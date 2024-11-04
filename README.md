@@ -91,3 +91,16 @@ model.fit(x_train, y_train, epochs=1, batch_size=128)
 > CPU times: user 20min 53s, sys: 3min 23s, total: 24min 16s<br/>
 > Wall time: 8min 14s<br/>
 > <keras.src.callbacks.history.History at 0x17f61fac0><br/>
+
+# Entorno ligo.skymap 
+
+```
+conda create -n ligo.skymap --yes
+conda activate ligo.skymap
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+conda install ligo.skymap
+conda install ipykernel --yes
+conda install ipywidgets --yes
+python -m ipykernel install --user --name ligo.skymap --display-name "Python (ligo.skymap)"
+```
